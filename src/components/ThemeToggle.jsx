@@ -6,10 +6,16 @@ const ThemeToggle = () => {
     const {theme, setTheme} = useContext(ThemeContext)
 
   return (
-    <div>
+    <div className='p-2'>
         {theme === 'dark' ? (
-            <div><HiSun /></div>
-        ) : (<div></div>)}
+            <div className='flex items-center cursor-pointer' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+                <HiSun className='text-primary text-2xl mr-2' />Mode Clair
+            </div>
+        ) : (
+            <div className='flex items-center cursor-pointer' onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+                <HiMoon className='text-primary text-2xl mr-2' />Mode Sombre
+            </div>
+        )}
     </div>
   )
 }
