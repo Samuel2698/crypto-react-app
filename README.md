@@ -1,3 +1,3 @@
 # crypto-react-app
 
-En construction
+Application crypto créée avec React, Tailwind CSS, Firebase et CoinGecko API V3.
