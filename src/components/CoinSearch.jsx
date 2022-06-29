@@ -22,13 +22,13 @@ const CoinSearch = ({coins}) => {
           <thead>
             <tr className='border-b'>
               <th></th>
-              <th>#</th>
-              <th>Monnaie</th>
+              <th className='px-4'>#</th>
+              <th className='text-left'>Monnaie</th>
               <th></th>
               <th>Cours</th>
               <th>24 h</th>
-              <th>Volume sur 24 h</th>
-              <th>Capitalisation du marché</th>
+              <th className='hidden md:table-cell'>Volume sur 24 h</th>
+              <th className='hidden sm:table-cell'>Capitalisation du marché</th>
               <th>7 derniers jours</th>
             </tr>
           </thead>
