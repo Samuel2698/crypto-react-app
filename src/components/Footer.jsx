@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="grid md:grid-cols-2">
         <div className="flex justify-evenly w-full md:max-w-[300px] uppercase">
           <div>
-            <h2 className="font-bold">Assistance technique</h2>
+            <h2 className="mr-2 font-bold">Assistance technique</h2>
             <ul>
               <li className="text-sm py-2 cursor-pointer">
                 Donnez-nous votre avis
@@ -18,7 +18,7 @@ const Footer = () => {
                 Centre d'assistance
               </li>
               <li className="text-sm py-2 cursor-pointer">
-                Envoyer une demande
+                Envoyez-nous une demande
               </li>
               <li className="text-sm py-2 cursor-pointer">
                 Vérification Bitmonnaie
@@ -26,7 +26,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="font-bold">A propos de nous</h2>
+            <h2 className="mr-2 px-2 font-bold">A propos de nous</h2>
             <ul>
               <li className="text-sm py-2 cursor-pointer">A propos</li>
               <li className="text-sm py-2 cursor-pointer">Carrières</li>
@@ -41,7 +41,7 @@ const Footer = () => {
               <div className="flex justify-center md:justify-end py-4 md:py-0 md:pb-4 mt-[-1rem]">
                 <ThemeToggle />
               </div>
-              <p className="text-center md:text-right cursor-pointer">
+              <p className="text-center md:text-right cursor-pointer hover:text-accent">
                 S'abonner à nos infos
               </p>
               <div className="py-4">
@@ -57,11 +57,11 @@ const Footer = () => {
                 </form>
               </div>
               <div className="flex py-4 justify-between text-accent">
-                <AiOutlineInstagram className="hover:text-blue-600" />
-                <FaTiktok className="hover:text-blue-600" />
-                <FaTwitter className="hover:text-blue-600" />
-                <FaFacebookF className="hover:text-blue-600" />
-                <FaGithub className="hover:text-blue-600" />
+                <AiOutlineInstagram className="cursor-pointer" />
+                <FaTiktok className="cursor-pointer" />
+                <FaTwitter className="cursor-pointer" />
+                <FaFacebookF className="cursor-pointer" />
+                <FaGithub className="cursor-pointer" />
               </div>
             </div>
           </div>
